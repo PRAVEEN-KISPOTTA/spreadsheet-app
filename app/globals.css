@@ -31,3 +31,15 @@ body {
     text-wrap: balance;
   }
 }
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+}
+
+.cell {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
